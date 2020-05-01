@@ -1,29 +1,66 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>ParkON - Maps</title>
+	<title>ParkON - Silahkan Masuk ke Akun anda terlebih dahulu</title>
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<script src="js/bootstrap.min.js" ></script>
+	<script src="js/jquery.slim.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style>
+.mapouter {
+			text-align:right;
+			height:500px;
+			width:100%;
+}
+
+.gmap_canvas {
+			overflow:hidden;
+			background:none!important;
+			height:500px;
+			width:100%;
+}
+</style>
 </head>
 <body>
-	<div class="top-container-login">
-		<div>
-			<img src="css/images/head.png" class="head-img-login left">
-		</div>
-		<div class="navbar_top right">
-			<i class="fas fa-home white"></i>
-			<a href="\index.html" class="navbar_link">Home</a>
-		</div>
-	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+          <img src="css/images/head.png" width="250px;">
+        </a>
+      	<div class="nav-item">
+      		<button class="btn btn-light" onclick="window.location.href = '/index.php';">Home</button>
+  		</div>
+  </div>
+</nav>
 	<div class="mapouter">
 		<div class="gmap_canvas">
-			<iframe width="100%" height="450" src="https://maps.google.com/maps?q=yogyakara&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginwidth="0">
+			<iframe width="100%" height="100%" src="https://maps.google.com/maps?q=yogyakara&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginwidth="0">
 			</iframe>
 		</div>
 	</div>
-	<div class="footer1"></div>
-	<div class="footer2">
-		<span>ParkON - © 2019 TeamEliteSVProject</span>
-	</div>
+	<!-- Footer -->
+<footer class="page-footer font-small special-color-dark">
+
+  <!-- Footer Elements -->
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 bg-dark text-white">
+		<span>ParkON -© 2019 TeamEliteSVProject</span>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 </body>
 </html>
