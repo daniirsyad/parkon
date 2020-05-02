@@ -11,7 +11,7 @@ ParkON merupakan sebuah website yang berfungsi sebagai aplikasi booking tempat p
 
 Repositori ini berisikan frontend dari project resmi yang diberikan, belum termasuk backend dan database dari alat.
 
-## Created by
+## Dibuat oleh
 
 [Muhammad Daanii Irsyaad](https://www.instagram.com/daniirsyad/) | 
 [Cholifiyah Dhiya Damara](https://www.instagram.com/strawberrywithoutcream/) | 
